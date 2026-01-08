@@ -1,0 +1,49 @@
+name: test_sru
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  dartz: ^0.10.1
+  dio: ^5.9.0
+  double_back_to_close_app: ^2.1.0
+  easy_debounce: ^2.0.3
+  extended_image: ^10.0.1
+  flutter:
+    sdk: flutter
+  get: ^4.7.3
+  get_it: ^9.2.0
+  google_fonts: ^7.0.0
+  hive_ce: ^2.16.0
+  hive_ce_flutter: ^2.3.3
+  photo_view: ^0.15.0
+  pretty_dio_logger: ^1.4.0
+  pull_to_refresh:
+    git:
+      url: https://github.com/programmerterkuatdibekasi/flutter_pulltorefresh_fork.git
+      ref: master
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  build_runner: ^2.10.4
+  flutter_gen_runner: ^5.12.0
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+  hive_ce_generator: ^1.11.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+
+flutter_gen:
+  output: lib/gen/
+  line_length: 80
